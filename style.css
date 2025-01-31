@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    /* height: 800px; */
+    /* background-color: #fff; */
+    /* color: #000; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+}
+
+section{
+    width: 350px;
+     height: 100%; 
+     background-color: #202124; 
+     /* background-color: #fff; */
+
+}
+section .head{
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    text-align: center;
+}
+section .head h1{
+    color: #fff;
+}
+section .head h1 span{
+    color: lightgreen;
+}
+section ul{
+    width: 100%;
+    /* background-color: antiquewhite; */
+    padding: 10px;
+}
+section ul li{
+    list-style-type: none;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+section ul li figure{
+    width: 39px;
+    height: 39px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 5px;
+   
+}
+section ul li .linkedin{
+    width: 37px;
+    height: 37px;
+}
+section ul li .instagram{
+    width: 36px;
+    height: 36px;
+}
+section ul li figure img{
+    width: 100%;
+}
+section ul li input{
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: 3px;
+    /* border-bottom-color: #4FCBB0; */
+    outline: none;
+    color: #4FCBB0;
+}
+
+section ul li .btns{
+    display: flex;
+}
+section ul li .btns button{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+}
+section ul li .btns button:hover{
+    background-color: #333;
+    cursor: pointer;
+}
+section ul li .btns button i{
+    font-size: 16px;
+    color: aliceblue;
+}
+
